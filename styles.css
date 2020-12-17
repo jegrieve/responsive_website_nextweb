@@ -1,0 +1,60 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+nav {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#top-nav {
+    background-color: black;
+    height: 32px;
+    width: 100%;
+}
+
+#bot-nav {
+    background-color: grey;
+    height: 48px;
+    width: 100%;
+}
+
+#tnw-logo {
+    display: none;
+    background-color: black;
+    height: 80px;
+    width: 106px;
+}
+/*1536px*/
+
+#big-logo {
+    width: 70%;
+    margin-top: 30px;
+    margin-left: 15px;
+}
+
+@media (max-width: 1024px) {
+    #top-nav {
+        flex: 1;
+    }
+
+    #bot-nav {
+        
+    }
+
+    #tnw-logo {
+        display: block;
+    }
+}
+
+
+@media (max-width: 768px) {
+    #top-nav {
+        display: none;
+    }
+}
+
+@media ()
+
