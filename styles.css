@@ -6,55 +6,146 @@
 
 nav {
     display: flex;
+    height: 80px;
     flex-wrap: wrap;
+}
+
+#nav-container {
+    flex: 4;
 }
 
 #top-nav {
     background-color: black;
     height: 32px;
-    width: 100%;
 }
 
 #bot-nav {
     background-color: grey;
     height: 48px;
-    width: 100%;
 }
 
 #tnw-logo {
     display: none;
     background-color: black;
-    height: 80px;
-    width: 106px;
+    height: 80px; 
+    flex: 1;
 }
-/*1536px*/
 
 #big-logo {
-    width: 70%;
+    width: 80%;
     margin-top: 30px;
     margin-left: 15px;
 }
 
+#articles-container {
+    display: flex;
+    height: 560px;
+}
+
+#article-big {
+    background-color: red;
+    width: 65%;
+}
+
+#article-column {
+    background-color: blue;
+    width: 35%;
+}
+
+#article-one {
+    background-color: black;
+    margin: auto;
+    margin-top: 5px;
+    height: 98%;
+    width: 98%;
+}
+
+#article-two {
+    background-color: black;
+    height: 48%;
+    width: 98%;
+    margin: auto;
+    margin-top: 5px;
+}
+
+#article-three {
+    background-color: black;
+    height: 48%;
+    width: 98%;
+    margin: auto;
+    margin-top: 5px;
+}
+
+#latest-news-articles {
+    max-width: 80%;
+    background-color: red;
+    margin: auto;
+    margin-top: 50px;
+}
+
+
+#latest-articles-container {
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+    height: 600px;
+    background-color: black;
+    justify-content: space-around;
+}
+
+.news-article {
+    margin-top: 10px;
+    height: 45%;
+    width: 23%;
+    background-color: pink;
+}
+
 @media (max-width: 1024px) {
-    #top-nav {
-        flex: 1;
-    }
-
-    #bot-nav {
-        
-    }
-
+    
     #tnw-logo {
         display: block;
+    }
+
+    #articles-container {
+        height: 450px;
     }
 }
 
 
 @media (max-width: 768px) {
+    nav {
+        height: 48px;
+    }
+
     #top-nav {
         display: none;
     }
-}
 
-@media ()
+    #tnw-logo {
+        height: 48px;
+    }
+
+    #big-logo {
+        margin: auto;
+        padding-top: 15px;
+        padding-left: 20px;
+    }
+
+    #article-big {
+        height: 33%;
+        width: 100%;
+    }
+
+    #articles-container {
+        height: 650px;
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+
+    #article-column {
+        background-color: blue;
+        width: 100%;
+        height: 66%;
+    }
+}
 
