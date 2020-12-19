@@ -78,10 +78,19 @@ nav {
 
 #article-one {
     background-color: black;
+    color: white;
     margin: auto;
     margin-top: 5px;
     height: 98%;
     width: 98%;
+}
+
+#article-one-title {
+
+}
+
+#article-one-info {
+
 }
 
 #article-two {
