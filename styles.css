@@ -77,7 +77,8 @@ nav {
 }
 
 #latest-news-articles {
-    max-width: 80%;
+    max-width: 1200px;
+    min-width: 80%;
     background-color: red;
     margin: auto;
     margin-top: 50px;
@@ -96,12 +97,61 @@ nav {
 .news-article {
     margin-top: 10px;
     height: 45%;
-    width: 23%;
+    width: 22%;
     background-color: pink;
 }
 
+#funding-articles {
+    max-width: 1200px;
+    min-width: 80%;
+    background-color: red;
+    margin: auto;
+    margin-top: 50px;
+}
+
+#latest-funding-container {
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+    height: 300px;
+    background-color: black;
+    justify-content: space-around;
+}
+
+.funding-article {
+    margin-top: 10px;
+    height: 90%;
+    width: 22%;
+    background-color: pink;
+}
+
+#etc-articles {
+    max-width: 1200px;
+    min-width: 80%;
+    background-color: red;
+    margin: auto;
+    margin-top: 50px;
+}
+
+#etc-container {
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+    height: 1900px;
+    background-color: black;
+    justify-content: space-around;
+}
+
+.etc-article {
+    margin-top: 10px;
+    height: 30%;
+    width: 30%;
+    background-color: pink;
+}
+
+
+
 @media (max-width: 1024px) {
-    
     #tnw-logo {
         display: block;
     }
@@ -109,6 +159,38 @@ nav {
     #articles-container {
         height: 450px;
     }
+
+    #latest-articles-container {
+        height: 700px;
+        justify-content: space-between;
+    }
+    
+    .news-article {
+        height: 31%;
+        width: 33%;
+    }
+
+    #latest-funding-container {
+        height: 500px;
+    }
+    
+    .funding-article {
+        margin-top: 10px;
+        height: 45%;
+        width: 32%;
+        background-color: pink;
+    }
+
+    #etc-container {
+        height: 2200px;
+    }
+    
+    .etc-article {
+        width: 40%;
+        background-color: pink;
+    }
+    
+    
 }
 
 
@@ -147,5 +229,36 @@ nav {
         width: 100%;
         height: 66%;
     }
+
+    #latest-articles-container {
+        height: 700px;
+        justify-content: space-between;
+    }
+    
+    .news-article {
+        height: 10%;
+        width: 95%;
+    }
+
+    #latest-funding-container {
+        height: 800px;
+    }
+    
+    .funding-article {
+        height: 22%;
+        width: 95%;
+    }
+
+    #etc-container {
+        height: 8000px;
+    }
+    
+    .etc-article {
+        width: 90%;
+        height: 10%;
+        background-color: pink;
+    }
+    
+    
 }
 
