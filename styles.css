@@ -17,24 +17,48 @@ nav {
 #top-nav {
     background-color: black;
     height: 32px;
+    color: grey;
+    font-size: 13px;
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    font-weight: 2;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.top-nav-links {
+    margin-left: 14px;
+}
+
+#top-nav-right {
+    margin-right: 10px;
 }
 
 #bot-nav {
-    background-color: grey;
     height: 48px;
+    color: grey;
+    font-size: 13px;
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    font-weight: 2;
+    align-items: center;
+}
+
+.bot-nav-links {
+    margin-left: 14px;
 }
 
 #tnw-logo {
     display: none;
     background-color: black;
     height: 80px; 
-    flex: 1;
+    width: 100px;
 }
 
 #big-logo {
     width: 80%;
     margin-top: 30px;
-    margin-left: 15px;
+    margin-left: 10px;
 }
 
 #articles-container {
